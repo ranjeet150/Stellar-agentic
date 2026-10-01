@@ -8,8 +8,8 @@
     "dashboard"
   ],
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "node init && turbo run dev",
+    "build": "node init && turbo run build",
     "test": "bash ./scripts/test-all.sh",
     "test:packages": "turbo run test",
     "test:all": "bash ./scripts/test-all.sh",
